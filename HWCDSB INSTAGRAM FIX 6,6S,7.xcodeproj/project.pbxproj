@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA927E381E4977BF007FF839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA927E371E4977BF007FF839 /* main.m */; };
+		AA927E3B1E4977BF007FF839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA927E3A1E4977BF007FF839 /* AppDelegate.m */; };
+		AA927E3E1E4977BF007FF839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA927E3D1E4977BF007FF839 /* ViewController.m */; };
+		AA927E411E4977BF007FF839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA927E3F1E4977BF007FF839 /* Main.storyboard */; };
+		AA927E441E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA927E421E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld */; };
+		AA927E461E4977C0007FF839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA927E451E4977C0007FF839 /* Assets.xcassets */; };
+		AA927E491E4977C0007FF839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA927E471E4977C0007FF839 /* LaunchScreen.storyboard */; };
+		AA927E541E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA927E531E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m */; };
+		AA927E5F1E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA927E5E1E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA927E501E4977C2007FF839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA927E2B1E4977BE007FF839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA927E321E4977BF007FF839;
+			remoteInfo = "HWCDSB INSTAGRAM FIX 6,6S,7";
+		};
+		AA927E5B1E4977C3007FF839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA927E2B1E4977BE007FF839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA927E321E4977BF007FF839;
+			remoteInfo = "HWCDSB INSTAGRAM FIX 6,6S,7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA927E331E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX 6,6S,7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA927E371E4977BF007FF839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA927E391E4977BF007FF839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA927E3A1E4977BF007FF839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA927E3C1E4977BF007FF839 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA927E3D1E4977BF007FF839 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA927E401E4977BF007FF839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA927E431E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodel; sourceTree = "<group>"; };
+		AA927E451E4977C0007FF839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA927E481E4977C0007FF839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA927E4A1E4977C0007FF839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA927E4F1E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX 6,6S,7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA927E531E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m; sourceTree = "<group>"; };
+		AA927E551E4977C3007FF839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA927E5A1E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX 6,6S,7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA927E5E1E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m; sourceTree = "<group>"; };
+		AA927E601E4977C3007FF839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA927E301E4977BF007FF839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E4C1E4977C2007FF839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E571E4977C3007FF839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA927E2A1E4977BE007FF839 = {
+			isa = PBXGroup;
+			children = (
+				AA927E351E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */,
+				AA927E521E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests */,
+				AA927E5D1E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests */,
+				AA927E341E4977BF007FF839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA927E341E4977BF007FF839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA927E331E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7.app */,
+				AA927E4F1E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests.xctest */,
+				AA927E5A1E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA927E351E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */ = {
+			isa = PBXGroup;
+			children = (
+				AA927E391E4977BF007FF839 /* AppDelegate.h */,
+				AA927E3A1E4977BF007FF839 /* AppDelegate.m */,
+				AA927E3C1E4977BF007FF839 /* ViewController.h */,
+				AA927E3D1E4977BF007FF839 /* ViewController.m */,
+				AA927E3F1E4977BF007FF839 /* Main.storyboard */,
+				AA927E451E4977C0007FF839 /* Assets.xcassets */,
+				AA927E471E4977C0007FF839 /* LaunchScreen.storyboard */,
+				AA927E4A1E4977C0007FF839 /* Info.plist */,
+				AA927E421E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld */,
+				AA927E361E4977BF007FF839 /* Supporting Files */,
+			);
+			path = "HWCDSB INSTAGRAM FIX 6,6S,7";
+			sourceTree = "<group>";
+		};
+		AA927E361E4977BF007FF839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA927E371E4977BF007FF839 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA927E521E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA927E531E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m */,
+				AA927E551E4977C3007FF839 /* Info.plist */,
+			);
+			path = "HWCDSB INSTAGRAM FIX 6,6S,7Tests";
+			sourceTree = "<group>";
+		};
+		AA927E5D1E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA927E5E1E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m */,
+				AA927E601E4977C3007FF839 /* Info.plist */,
+			);
+			path = "HWCDSB INSTAGRAM FIX 6,6S,7UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA927E321E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA927E631E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7" */;
+			buildPhases = (
+				AA927E2F1E4977BF007FF839 /* Sources */,
+				AA927E301E4977BF007FF839 /* Frameworks */,
+				AA927E311E4977BF007FF839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HWCDSB INSTAGRAM FIX 6,6S,7";
+			productName = "HWCDSB INSTAGRAM FIX 6,6S,7";
+			productReference = AA927E331E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA927E4E1E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA927E661E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7Tests" */;
+			buildPhases = (
+				AA927E4B1E4977C2007FF839 /* Sources */,
+				AA927E4C1E4977C2007FF839 /* Frameworks */,
+				AA927E4D1E4977C2007FF839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA927E511E4977C2007FF839 /* PBXTargetDependency */,
+			);
+			name = "HWCDSB INSTAGRAM FIX 6,6S,7Tests";
+			productName = "HWCDSB INSTAGRAM FIX 6,6S,7Tests";
+			productReference = AA927E4F1E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA927E591E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA927E691E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7UITests" */;
+			buildPhases = (
+				AA927E561E4977C3007FF839 /* Sources */,
+				AA927E571E4977C3007FF839 /* Frameworks */,
+				AA927E581E4977C3007FF839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA927E5C1E4977C3007FF839 /* PBXTargetDependency */,
+			);
+			name = "HWCDSB INSTAGRAM FIX 6,6S,7UITests";
+			productName = "HWCDSB INSTAGRAM FIX 6,6S,7UITests";
+			productReference = AA927E5A1E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA927E2B1E4977BE007FF839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Brando1235703;
+				TargetAttributes = {
+					AA927E321E4977BF007FF839 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+					};
+					AA927E4E1E4977C2007FF839 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA927E321E4977BF007FF839;
+					};
+					AA927E591E4977C3007FF839 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA927E321E4977BF007FF839;
+					};
+				};
+			};
+			buildConfigurationList = AA927E2E1E4977BE007FF839 /* Build configuration list for PBXProject "HWCDSB INSTAGRAM FIX 6,6S,7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA927E2A1E4977BE007FF839;
+			productRefGroup = AA927E341E4977BF007FF839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA927E321E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */,
+				AA927E4E1E4977C2007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7Tests */,
+				AA927E591E4977C3007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA927E311E4977BF007FF839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA927E491E4977C0007FF839 /* LaunchScreen.storyboard in Resources */,
+				AA927E461E4977C0007FF839 /* Assets.xcassets in Resources */,
+				AA927E411E4977BF007FF839 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E4D1E4977C2007FF839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E581E4977C3007FF839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA927E2F1E4977BF007FF839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA927E3E1E4977BF007FF839 /* ViewController.m in Sources */,
+				AA927E441E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld in Sources */,
+				AA927E3B1E4977BF007FF839 /* AppDelegate.m in Sources */,
+				AA927E381E4977BF007FF839 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E4B1E4977C2007FF839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA927E541E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA927E561E4977C3007FF839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA927E5F1E4977C3007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA927E511E4977C2007FF839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA927E321E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */;
+			targetProxy = AA927E501E4977C2007FF839 /* PBXContainerItemProxy */;
+		};
+		AA927E5C1E4977C3007FF839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA927E321E4977BF007FF839 /* HWCDSB INSTAGRAM FIX 6,6S,7 */;
+			targetProxy = AA927E5B1E4977C3007FF839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA927E3F1E4977BF007FF839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA927E401E4977BF007FF839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA927E471E4977C0007FF839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA927E481E4977C0007FF839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA927E611E4977C3007FF839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA927E621E4977C3007FF839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA927E641E4977C3007FF839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA927E651E4977C3007FF839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA927E671E4977C3007FF839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWCDSB INSTAGRAM FIX 6,6S,7.app/HWCDSB INSTAGRAM FIX 6,6S,7";
+			};
+			name = Debug;
+		};
+		AA927E681E4977C3007FF839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWCDSB INSTAGRAM FIX 6,6S,7.app/HWCDSB INSTAGRAM FIX 6,6S,7";
+			};
+			name = Release;
+		};
+		AA927E6A1E4977C3007FF839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HWCDSB INSTAGRAM FIX 6,6S,7";
+			};
+			name = Debug;
+		};
+		AA927E6B1E4977C3007FF839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX 6,6S,7UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-6-6S-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HWCDSB INSTAGRAM FIX 6,6S,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA927E2E1E4977BE007FF839 /* Build configuration list for PBXProject "HWCDSB INSTAGRAM FIX 6,6S,7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA927E611E4977C3007FF839 /* Debug */,
+				AA927E621E4977C3007FF839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA927E631E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA927E641E4977C3007FF839 /* Debug */,
+				AA927E651E4977C3007FF839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA927E661E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA927E671E4977C3007FF839 /* Debug */,
+				AA927E681E4977C3007FF839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA927E691E4977C3007FF839 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX 6,6S,7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA927E6A1E4977C3007FF839 /* Debug */,
+				AA927E6B1E4977C3007FF839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA927E421E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA927E431E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodel */,
+			);
+			currentVersion = AA927E431E4977BF007FF839 /* HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodel */;
+			path = HWCDSB_INSTAGRAM_FIX_6_6S_7.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA927E2B1E4977BE007FF839 /* Project object */;
+}
