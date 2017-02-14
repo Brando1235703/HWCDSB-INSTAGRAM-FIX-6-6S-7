@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+  // install patch functions
+  
+  letinstallpatch represent as "go"
+  
+  don't contact hwcdsb.ca
+  
 
 @end
 
